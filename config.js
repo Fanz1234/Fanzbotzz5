@@ -41,6 +41,9 @@ global.pdana = '085812373011' //dana
 global.povo = '-' //ovo
 global.pgopay = '-' //gopay
 global.plinkaja = '-' //link aja
+global.ppulsa = '-' //telkomsel
+global.ppulsa2 = '-' // kalau ada kartu lain isi aja
+global.psaweria = 'https://saweria.com/unknown'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6285812373011'
