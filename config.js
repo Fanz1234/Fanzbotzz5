@@ -38,11 +38,11 @@ global.snh = 'https://www.youtube.com/channel/unknown' // my youtube channel
 
 /*============== PAYMENT ==============*/
 global.pdana = '085812373011' //dana
-global.povo = '085812373011' //ovo
-global.pgopay = '085812373011' //gopay
-global.plinkaja = '085812373011' //link aja
-global.ppulsa = '085812373011' //indosat
-global.ppulsa2 = '085812373011' //indosat
+global.povo = '-' //ovo
+global.pgopay = '-' //gopay
+global.plinkaja = '-' //link aja
+global.ppulsa = '-' //Telkomsel
+global.ppulsa2 = '-' //Liane
 global.psaweria = 'https://saweria.com/unknown'
 
 /*============== NOMOR ==============*/
