@@ -41,8 +41,8 @@ global.pdana = '085812373011' //dana
 global.povo = '-' //ovo
 global.pgopay = '-' //gopay
 global.plinkaja = '-' //link aja
-global.ppulsa = '-' //Telkomsel
-global.ppulsa2 = '-' //Liane
+global.ppulsa = '085812373011' //Telkomsel
+global.ppulsa2 = '085812373011' //Liane
 global.psaweria = 'https://saweria.com/unknown'
 
 /*============== NOMOR ==============*/
