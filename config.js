@@ -42,7 +42,7 @@ global.povo = '085812373011' //ovo
 global.pgopay = '085812373011' //gopay
 global.plinkaja = '085812373011' //link aja
 global.ppulsa = '085812373011' //indosat
-global.ppulsa2 = '085812373011' // kalau ada kartu lain isi aja
+global.ppulsa2 = '085812373011' //indosat
 global.psaweria = 'https://saweria.com/unknown'
 
 /*============== NOMOR ==============*/
