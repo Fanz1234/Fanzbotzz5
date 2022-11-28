@@ -57,6 +57,7 @@ https://github.com/FahriAdison
 *❉ ImYanXiao:*
 https://github.com/ImYanXiao
 *▸ - - - —「 Thanks For Suhu 」— - - - ◂*
+*❉ Fanz:*
 *❉ WH MODS DEV:*
 *❉ Kannachan:*
 *❉ Papah-Chan:*
