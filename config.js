@@ -41,9 +41,6 @@ global.pdana = '085812373011' //dana
 global.povo = '-' //ovo
 global.pgopay = '-' //gopay
 global.plinkaja = '-' //link aja
-global.ppulsa = '085812373011' //Indosat
-global.ppulsa2 = '085812373011' //Liane
-global.psaweria = 'https://saweria.com/unknown'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6285812373011'
