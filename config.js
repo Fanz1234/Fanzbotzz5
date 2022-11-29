@@ -114,7 +114,7 @@ global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘FanzBotzz ˘ฅ ꒱ ‧₊˚꒷�
 global.wm3 = '⫹⫺ FanzBotzz '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By FanzBotzz`
+global.titlebot = `⫹⫺ WhatsApp Bot | By Fanz`
 global.author = '                「 FanzBotzz  あ」'
 
 
@@ -190,7 +190,7 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = 'FanzBotzz'
-global.stickauth = `By ©FanzBotzz`
+global.stickauth = `By ©Fanz`
 
 global.multiplier = 38 // The higher, The harder levelup
 
