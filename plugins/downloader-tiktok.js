@@ -1,6 +1,5 @@
-import fetch from 'node-fetch'
-import axios from 'axios'
 import { tiktok } from "social_media_downloader"
+
 let handler = async (m, { conn, usedPrefix, command, text, args }) => {
 if (!args[0]) throw 'Masukkan Link'
 try {
