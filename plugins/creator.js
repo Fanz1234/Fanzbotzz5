@@ -27,7 +27,7 @@ ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
 ${htjava} *🎨 Umur* : YNKTS:v
 ${htjava} *🧮 Kelas* : SUDAH TAMAT
-${htjava} *🧩 Hobby* : Ngudud+Ngudud☕🚬🗿
+${htjava} *🧩 Hobby* : Ngudud+Ngopi ☕🚬🗿
 ${htjava} *💬 Sifat* : SANS:v
 ${htjava} *🗺️ Tinggal* : Megaluh, Jombang, Jawa Timur
 ${htjava} *❤️ Waifu* : -
