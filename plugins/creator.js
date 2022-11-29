@@ -25,10 +25,10 @@ ${htjava} *✉️ Nama RL* : HAMBA ALLAH
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : YNKTS
+${htjava} *🎨 Umur* : YNKTS:v
 ${htjava} *🧮 Kelas* : SUDAH TAMAT
-${htjava} *🧩 Hobby* : NGOPI:V
-${htjava} *💬 Sifat* : SANS:V
+${htjava} *🧩 Hobby* : Ngudud+Ngudud☕🚬🗿
+${htjava} *💬 Sifat* : SANS:v
 ${htjava} *🗺️ Tinggal* : Megaluh, Jombang, Jawa Timur
 ${htjava} *❤️ Waifu* : -
 
