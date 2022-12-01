@@ -6,11 +6,11 @@ let str = `Pengen yang udah di recode oleh owner?
 Script bot ini dijual bila kalian mau bisa chat owner
 
 wa.me/6285812373011`
-let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
+let wibu = `https://api-reysekha.herokuapp.com/api/wallpaper/kucing?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Thankyou','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/unknown",
-    mediaType: "VIDEO",
+    mediaType: "WALLPAPER",
     description: "https://www.instagram.com/unknown", 
     title: 'FanzBotzz',
     body: wm,
