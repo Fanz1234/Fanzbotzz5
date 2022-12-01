@@ -35,7 +35,7 @@ let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•═════════════�
 |  *Status     :* 
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `
-let wibu = `https://api-reysekha.herokuapp.com/api/muslim/asmaulhusna?apikey=apirey` 
+let wibu = `https://api-reysekha.herokuapp.com/api/wallpaper/kucing?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, krtu, wm,'MENU','.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/unknown",
