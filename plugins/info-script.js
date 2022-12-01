@@ -10,7 +10,7 @@ let wibu = `https://api-reysekha.herokuapp.com/api/wallpaper/kucing?apikey=apire
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Thankyou','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/unknown",
-    mediaType: "WALLPAPER",
+    mediaType: "VIDEO",
     description: "https://www.instagram.com/unknown", 
     title: 'FanzBotzz',
     body: wm,
