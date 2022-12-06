@@ -1,7 +1,7 @@
 {
-    "name": "wh-mods-dev",
+    "name": "Fanz",
     "version": "3.0.0",
-    "description": "WhatsApp BOT By wahid",
+    "description": "WhatsApp BOT By Fanz",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -10,7 +10,7 @@
         "plugins": "plugins"
     }, 
     "scripts": {
-        "start": "node index.js",
+        "start": "npm i -g pm2 && pm2 index.js && pm2 save && pm2 logs",
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
