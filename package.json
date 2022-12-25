@@ -2,7 +2,7 @@
     "name": "Fanz",
     "version": "3.0.0",
     "description": "WhatsApp BOT By Fanz",
-    "main": "index.js",
+    "main": "main.js",
     "type": "module",
     "directories": {
         "lib": "lib",
@@ -10,7 +10,7 @@
         "plugins": "plugins"
     }, 
     "scripts": {
-        "start": "node index.js",
+        "start": "node main.js",
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
