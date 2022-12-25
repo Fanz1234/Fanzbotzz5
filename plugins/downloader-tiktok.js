@@ -1,31 +1,22 @@
-import { tiktokdl, tiktokdlv2, tiktokdlv3 } from '@bochilteam/scraper'
-
-let handler = async (m, { conn, args, usedPrefix, command }) => {
-if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/@omagadsus/video/7025456384175017243`
-    const { author: { nickname }, video, description } = await tiktokdl(args[0])
-    .catch(async _ => await tiktokdlv2(args[0]))
-        .catch(async _ => await tiktokdlv3(args[0]))
-    const url = video.no_watermark || video.no_watermark2 || video.no_watermark_raw
-    if (!url) throw 'Can\'t download video!'
-    conn.sendFile(m.chat, url, 'tiktok.mp4', 
-`              *「 🇹 ᴛ ɪ ᴋ ᴛ ᴏ ᴋ 」*
-                 ████████▀▀▀████
-                 ████████────▀██
-                 ████████──█▄──█
-                 ███▀▀▀██──█████
-                 █▀──▄▄██──█████
-                 █──█████──█████
-                 █▄──▀▀▀──▄█████
-                 ███▄▄▄▄▄███████
-────────── ⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻ ──────────
-*Nickname:* ${nickname}
-*Description:* ${description}
-
-_©FanzBotzz_
-`.trim(), m)
+let fetch = require('node-fetch')
+let handler = async (m, { conn, args }) => {
+if (!args[0]) throw 'Link Nya Mana'
+m.reply('tunggu')
+ let res = await fetch(`https://api.ibengtools.my.id/api/download/tiktok?url=${args[0]}&apikey=ibeng`)
+if (!res.ok) throw await res.text()
+let json = await res.json()
+if (!json.status) throw json
+let { video, description, username } = json.result
+await conn.sendFile(m.chat, video, 'video.mp4', `
+\n👾 *𝚄𝚜𝚎𝚛 𝙽𝚊𝚖𝚎*: ${username}
+\n\n📜 *𝙳𝚎𝚜𝚔𝚛𝚒𝚙𝚜𝚒*: ${description}
+\n\n📮 *𝙼𝚊𝚍𝚎 𝙱𝚢*: © 𝙹𝚊𝚛𝚘𝚝 𝙾𝚏𝚏𝚌
+`, m, false, { contextInfo: { forwardingScore: 999, isForwarded: true }})
 }
-handler.help = ['tiktok', 'tiktok', 'tiktokdl'].map(v => v + ' <url>')
-handler.tags = ['downloader']
-handler.command = /^(tik(tok)?(tok)?(dl)?)$/i
 
-export default handler
+handler.help = ['tiktok <url>']
+handler.tags = ['downloader']
+
+handler.command = /^(tt|tiktok)$/i
+handler.limit = true
+module.exports = handler
